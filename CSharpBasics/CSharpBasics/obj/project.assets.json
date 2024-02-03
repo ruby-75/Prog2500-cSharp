@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cSharp\\CSharpBasics\\CSharpBasics\\CSharpBasics.csproj",
+      "projectUniqueName": "C:\\Users\\ruby-\\OneDrive\\Desktop\\SchoolGits\\Prog2500-cSharp\\CSharpBasics\\CSharpBasics\\CSharpBasics.csproj",
       "projectName": "CSharpBasics",
-      "projectPath": "D:\\cSharp\\CSharpBasics\\CSharpBasics\\CSharpBasics.csproj",
+      "projectPath": "C:\\Users\\ruby-\\OneDrive\\Desktop\\SchoolGits\\Prog2500-cSharp\\CSharpBasics\\CSharpBasics\\CSharpBasics.csproj",
       "packagesPath": "C:\\Users\\ruby-\\.nuget\\packages\\",
-      "outputPath": "D:\\cSharp\\CSharpBasics\\CSharpBasics\\obj\\",
+      "outputPath": "C:\\Users\\ruby-\\OneDrive\\Desktop\\SchoolGits\\Prog2500-cSharp\\CSharpBasics\\CSharpBasics\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

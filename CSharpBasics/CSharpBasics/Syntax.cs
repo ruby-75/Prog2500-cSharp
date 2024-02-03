@@ -8,9 +8,9 @@ namespace CSharpBasics
 {
     class Syntax : Statement
     {
-        private string type { get; set; }
-        private string name { get; set; }
-        private string use { get; set; }
+        public string type { get; set; }
+        public string name { get; set; }
+        public string use { get; set; }
 
 
         public Syntax(string type, string name, string use)

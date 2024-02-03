@@ -51,8 +51,8 @@ namespace CSharpBasics
             Console.WriteLine();
 
             /*
-            bool displayMenu = true;
-            while (displayMenu)
+            bool displayMainMenu = true;
+            while (displayMainMenu = true)
             {
 
                 Console.Clear();
@@ -151,7 +151,6 @@ namespace CSharpBasics
             switch (userMenuInput)
 
             {
-
                 case "1":
                     Console.WriteLine("An int stores whole numbers from -2,147,483,648 to 2,147,483,647.");
                     Console.WriteLine("An example of an int is " + myInt);
@@ -238,6 +237,22 @@ namespace CSharpBasics
 
             PrintStrings(ReverseString(fName), ReverseString(lName));
             PrintStrings(ReverseString(fName));
+
+            Console.WriteLine();
+            
+            //create an object of syntax class
+            Syntax forLoop = new Syntax("loop", "for", "When you know how many times you need to iterate through the loop.");
+            Console.WriteLine(forLoop.type);
+            Console.WriteLine(forLoop.name);
+            Console.WriteLine(forLoop.use);
+
+            Console.WriteLine();
+
+            Details whileLoop = new Details("loop", "while", "Loops through a block of code as long as a specified condition is true.", "while (condition { //code to be executed }");
+            Console.WriteLine(whileLoop.type);
+            Console.WriteLine(whileLoop.name);
+            Console.WriteLine(whileLoop.use);
+            Console.WriteLine(whileLoop.example);
         }
 
 

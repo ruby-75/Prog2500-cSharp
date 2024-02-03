@@ -9,12 +9,15 @@ namespace CSharpBasics
 {
     class Details : Syntax
     {
-        public Details(string type, string name, string use) : base(type, name, use)
+        internal bool example;
+
+        public string examples { get; set; }
+        public Details(string type, string name, string use, string example) : base(type, name, use)
         {
           
         }
 
-        private string examples { get; set; }
+       
    
     }
 }
